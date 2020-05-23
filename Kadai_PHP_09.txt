@@ -1,0 +1,14 @@
+1. URLとControllerやActionを紐付ける機能を何といいますか？
+　 ⇨Routing
+
+2. あなたが考える、group化をすることのメリットを考えてみてください。
+   ⇨コードの重複をなくし、グループ分けによりコードがわかりやすくなる
+
+3.「http://XXXXXX.jp/XXX というアクセスが来たときに、 AAAControllerのbbbというAction に渡すRoutingの設定」
+   を書いてみてください。
+　 ⇨Kadai_PHP_09-3.phpに記載
+
+4.【応用】 前章でAdmin/ProfileControllerを作成し、add Action, edit Actionを追加しました。
+   web.phpを編集して、admin/profile/create にアクセスしたら ProfileController の add Action に、
+   admin/profile/edit にアクセスしたら ProfileController の edit Action に割り当てるように設定してください。
+   ⇨Kadai_PHP_09-4.phpに記載
